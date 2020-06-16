@@ -1,0 +1,18 @@
+Aihe:
+segmentin close/open
+Lähettäjä:
+Heikki Sistonen <heikki_sistonen@hotmail.com>
+Päiväys:
+Wed, 18 Aug 2010 13:09:06 +0300
+Vastaanottaja:
+Markku Koivuperä <markku.koivupera@canagot.fi>
+
+
+moro,
+
+Eli addcomponentilla voi luoda puuhun solmuja:
+ mWriter.addComponent(partID, componentName, null, null, null, 1, "", null, 0);
+
+kun ne myös muistetaan sulkea( varmaankin jokaiselle componentille)
+mWriter.addComponent("CloseSubAssembly", componentName, null, null, null, 0,null,null, 0);
+ 		 	   		  

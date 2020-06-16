@@ -1,0 +1,90 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.50727.762 (537edf0b).
+//
+// c:\projects\graphisoft\api development kit 14.2550\examples\cf_archicad14addon\debug\hsfwriterwrap.tli
+//
+// Wrapper implementations for Win32 type library C:\Projects\CadFasterHSFWriterSDK\bin2\hsfwriterwrap.exe
+// compiler-generated file created 12/13/10 at 14:07:32 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IHsfWriter wrapper method implementations
+//
+
+inline HRESULT IHsfWriter::partExists ( _bstr_t partId, unsigned int * exists ) {
+    HRESULT _hr = raw_partExists(partId, exists);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHsfWriter::addPart ( _bstr_t partId, unsigned int featureCount ) {
+    HRESULT _hr = raw_addPart(partId, featureCount);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHsfWriter::addComponent ( _bstr_t referencedPartId, _bstr_t componentId, unsigned int transformationLength, double * transformation, unsigned int componentMaterialLength, double * componentMaterial, unsigned int featureMaterialLength, double * featureMaterials, _bstr_t imageId, unsigned int textureMaterialLength, double * textureMatrix, long doubleSided ) {
+    HRESULT _hr = raw_addComponent(referencedPartId, componentId, transformationLength, transformation, componentMaterialLength, componentMaterial, featureMaterialLength, featureMaterials, imageId, textureMaterialLength, textureMatrix, doubleSided);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHsfWriter::addFaceRegion ( _bstr_t referencedPartId, unsigned int verticesLength, float * vertices, unsigned int normalsLength, float * normals, unsigned int textureCoordLength, float * textureCoords, unsigned int indicesLength, unsigned int * indices, unsigned int vertexcount, unsigned int indexcount, unsigned int featureCount, unsigned int * features ) {
+    HRESULT _hr = raw_addFaceRegion(referencedPartId, verticesLength, vertices, normalsLength, normals, textureCoordLength, textureCoords, indicesLength, indices, vertexcount, indexcount, featureCount, features);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHsfWriter::init ( _bstr_t filename ) {
+    HRESULT _hr = raw_init(filename);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHsfWriter::write ( _bstr_t filename, enum TesselationDataTypes dataType, long textureQuality, long writeAscii ) {
+    HRESULT _hr = raw_write(filename, dataType, textureQuality, writeAscii);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHsfWriter::addImage ( _bstr_t imageId ) {
+    HRESULT _hr = raw_addImage(imageId);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHsfWriter::addSkyBox ( unsigned int skyBoxImageListLength, BSTR * skyBoxImageList ) {
+    HRESULT _hr = raw_addSkyBox(skyBoxImageListLength, skyBoxImageList);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHsfWriter::getVersionInfo ( unsigned int versionInfoLength, BSTR * versionInfo ) {
+    HRESULT _hr = raw_getVersionInfo(versionInfoLength, versionInfo);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHsfWriter::placeholderExist ( _bstr_t placeholderId, int * exists ) {
+    HRESULT _hr = raw_placeholderExist(placeholderId, exists);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHsfWriter::writeExe ( _bstr_t exeStubPath, _bstr_t srcFileName, _bstr_t dstFileName ) {
+    HRESULT _hr = raw_writeExe(exeStubPath, srcFileName, dstFileName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHsfWriter::checkLicense ( _bstr_t productTag, _bstr_t key1, _bstr_t key2, BSTR * daysleft, BSTR * licenseOwner ) {
+    HRESULT _hr = raw_checkLicense(productTag, key1, key2, daysleft, licenseOwner);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IHsfWriter::InitWriter ( ) {
+    HRESULT _hr = raw_InitWriter();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

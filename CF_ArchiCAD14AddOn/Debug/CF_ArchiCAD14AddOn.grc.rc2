@@ -1,0 +1,33 @@
+
+/*------------------ This file was created by GRC compiler -----------------*/
+/*                                                                          */
+/*      Source file: RINT\CF_ArchiCAD14AddOn.grc            Code table:  NUL            */
+/*                                                                          */
+/*----- Version 2.0 - Windows ----------------- � 1996-2000 by Graphisoft --*/
+
+
+ #define INT__APP
+ #define INTERNAL_NAME "CF_ArchiCAD14AddOn"
+ #define ORIGINAL_NAME "CF_ArchiCAD14AddOn.apx"
+32000 STRS
+BEGIN
+	24, 0,
+	"Collaborate\0",
+	"Collaborate\0",
+END
+
+32500 STRS
+BEGIN
+	42, 0,
+	"Collaborate\0",
+	"Collaborate\0",
+	"About\0",
+	"Collaborate\0",
+END
+
+32501 STRS
+BEGIN
+	12, 0,
+	"Collaborate\0",
+END
+

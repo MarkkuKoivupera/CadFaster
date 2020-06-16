@@ -1,0 +1,115 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.50727.762 (5b0af257).
+//
+// c:\projects\graphisoft\api development kit 14.2550\examples\cf_archicad14addon\debug\hsfwriterwrap.tlh
+//
+// C++ source equivalent of Win32 type library C:\Projects\CadFasterHSFWriterSDK\bin2\hsfwriterwrap.exe
+// compiler-generated file created 12/13/10 at 15:23:26 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("1acc333d-e083-4f75-b9a2-bd5304c08e8a"))
+/* LIBID */ __HsfWriterWrapLib;
+struct /* coclass */ HsfWriter;
+struct __declspec(uuid("f6312812-ed32-47f0-94bb-18bedb21c089"))
+/* interface */ IHsfWriter;
+enum TesselationDataTypes;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IHsfWriter, __uuidof(IHsfWriter));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("b78a24f4-204d-4e27-bdf3-563e0b8b7ccd"))
+HsfWriter;
+    // [ default ] interface IHsfWriter
+
+enum TesselationDataTypes
+{
+    normals = 0,
+    Stripss = 1
+};
+
+struct __declspec(uuid("f6312812-ed32-47f0-94bb-18bedb21c089"))
+IHsfWriter : IUnknown
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall partExists (
+        /*[in]*/ BSTR partId,
+        /*[out]*/ unsigned int * exists ) = 0;
+      virtual HRESULT __stdcall addPart (
+        /*[in]*/ BSTR partId,
+        unsigned int featureCount ) = 0;
+      virtual HRESULT __stdcall addComponent (
+        /*[in]*/ BSTR referencedPartId,
+        /*[in]*/ BSTR componentId,
+        /*[in]*/ unsigned int transformationLength,
+        /*[in]*/ double * transformation,
+        /*[in]*/ unsigned int componentMaterialLength,
+        /*[in]*/ double * componentMaterial,
+        /*[in]*/ unsigned int featureMaterialLength,
+        /*[in]*/ double * featureMaterials,
+        /*[in]*/ BSTR imageId,
+        /*[in]*/ unsigned int textureMaterialLength,
+        /*[in]*/ double * textureMatrix,
+        /*[in]*/ long doubleSided ) = 0;
+      virtual HRESULT __stdcall addFaceRegion (
+        /*[in]*/ BSTR referencedPartId,
+        /*[in]*/ unsigned int verticesLength,
+        /*[in]*/ float * vertices,
+        /*[in]*/ unsigned int normalsLength,
+        /*[in]*/ float * normals,
+        /*[in]*/ unsigned int textureCoordLength,
+        /*[in]*/ float * textureCoords,
+        /*[in]*/ unsigned int indicesLength,
+        /*[in]*/ unsigned int * indices,
+        /*[in]*/ unsigned int vertexcount,
+        /*[in]*/ unsigned int indexcount,
+        /*[in]*/ unsigned int featureCount,
+        /*[in]*/ unsigned int * features ) = 0;
+      virtual HRESULT __stdcall init (
+        /*[in]*/ BSTR filename ) = 0;
+      virtual HRESULT __stdcall write (
+        /*[in]*/ BSTR filename,
+        /*[in]*/ enum TesselationDataTypes dataType,
+        /*[in]*/ long textureQuality,
+        /*[in]*/ long writeAscii ) = 0;
+      virtual HRESULT __stdcall addImage (
+        /*[in]*/ BSTR imageId ) = 0;
+      virtual HRESULT __stdcall addSkyBox (
+        /*[in]*/ unsigned int skyBoxImageListLength,
+        /*[in]*/ BSTR * skyBoxImageList ) = 0;
+      virtual HRESULT __stdcall getVersionInfo (
+        /*[in]*/ unsigned int versionInfoLength,
+        /*[out]*/ BSTR * versionInfo ) = 0;
+      virtual HRESULT __stdcall placeholderExist (
+        /*[in]*/ BSTR placeholderId,
+        /*[out]*/ int * exists ) = 0;
+      virtual HRESULT __stdcall writeExe (
+        /*[in]*/ BSTR exeStubPath,
+        /*[in]*/ BSTR srcFileName,
+        /*[in]*/ BSTR dstFileName ) = 0;
+      virtual HRESULT __stdcall checkLicense (
+        /*[in]*/ BSTR productTag,
+        /*[in]*/ BSTR key1,
+        /*[in]*/ BSTR key2,
+        /*[out]*/ BSTR * daysleft,
+        /*[out]*/ BSTR * licenseOwner ) = 0;
+      virtual HRESULT __stdcall InitWriter ( ) = 0;
+};
+
+#pragma pack(pop)

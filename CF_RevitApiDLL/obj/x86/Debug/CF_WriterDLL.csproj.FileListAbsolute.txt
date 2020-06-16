@@ -1,0 +1,14 @@
+C:\Projects\CadFaster\CF_WriterDLL\bin\x86\Debug\CF_WriterDLL.dll
+C:\Projects\CadFaster\CF_WriterDLL\bin\x86\Debug\CF_WriterDLL.pdb
+C:\Projects\CadFaster\CF_WriterDLL\bin\x86\Debug\hsfwriter.dll
+C:\Projects\CadFaster\CF_WriterDLL\bin\x86\Debug\RevitAPI.dll
+C:\Projects\CadFaster\CF_WriterDLL\bin\x86\Debug\RevitAPIUI.dll
+C:\Projects\CadFaster\CF_WriterDLL\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\CadFaster\CF_WriterDLL\obj\x86\Debug\ExeWriter.CF_WriterForm.resources
+C:\Projects\CadFaster\CF_WriterDLL\obj\x86\Debug\ExeWriter.Properties.Resources.resources
+C:\Projects\CadFaster\CF_WriterDLL\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Projects\CadFaster\CF_WriterDLL\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Projects\CadFaster\CF_WriterDLL\obj\x86\Debug\CF_WriterDLL.dll
+C:\Projects\CadFaster\CF_WriterDLL\obj\x86\Debug\CF_WriterDLL.pdb
+C:\CadFaster\Revit\CF_WriterDLL.dll
+C:\CadFaster\Revit\CF_WriterDLL.pdb

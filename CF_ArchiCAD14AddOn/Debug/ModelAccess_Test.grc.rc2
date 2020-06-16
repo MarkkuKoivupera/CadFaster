@@ -1,0 +1,36 @@
+
+/*------------------ This file was created by GRC compiler -----------------*/
+/*                                                                          */
+/*      Source file: RINT\ModelAccess_Test.grc            Code table:  NUL            */
+/*                                                                          */
+/*----- Version 2.0 - Windows ----------------- � 1996-2000 by Graphisoft --*/
+
+
+ #define INT__APP
+ #define INTERNAL_NAME "ModelAccess Test"
+ #define ORIGINAL_NAME "ModelAccess_Test.apx"
+32500 STRS
+BEGIN
+	35, 0,
+	"Model Test\0",
+	"Modelling: Tricks\0",
+	"Motte\0",
+END
+
+32501 STRS
+BEGIN
+	127, 0,
+	"ModelAccess Test File\0",
+	"ModelAccess Test\0",
+	"ModelAccess Test exports the 3D model (the geometry and the attributes) to a text file.\0",
+END
+
+32520 STRS
+BEGIN
+	94, 0,
+	"Created by Graphisoft's ModelAccess Test export add-on\0",
+	"Texture\0",
+	"Textures\0",
+	"Saving VRML-like File\0",
+END
+

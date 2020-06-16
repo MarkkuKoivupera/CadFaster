@@ -1,0 +1,28 @@
+﻿/* *****************************************************************************
+// Non-localizable resource description for the 3D Manager Add-On
+// API Development Kit 14; Mac/Win
+//
+// Namespaces:		Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+/*	Version resource - uses strings defined in the localizable resource file
+'VERS' {
+	"CadFaster, Inc."
+	"Copyright  © CadFaster, Inc. 2010"
+	"CadFaster Collaborate for ArchiCad"
+	1.00
+	1.00
+	"ArchiCAD"
+	14.0
+	" (14)"
+}
+*/
+
+@ #include "CadFasterCollaborateforArchiCad.h"
+'MDID' 32500 "Add-On Identifier" {
+	CADFASTERCOLLABORATEFORARCHICAD_H
+	CADFASTERCOLLABORATEFORARCHICAD_H_CadFasterCollaborateforArchiCad
+}

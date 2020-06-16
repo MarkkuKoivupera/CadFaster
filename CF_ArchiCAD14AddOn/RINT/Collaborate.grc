@@ -1,0 +1,28 @@
+﻿/* *****************************************************************************
+// Localizable resource description for the 3D Manager Add-On
+// API Development Kit 14; Mac/Win
+//
+// Namespaces:		Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+/* Text appearing in the menu
+	-- same as the name of the folder without underscore(s) */
+
+'STR#' 32000 "Add-on Name and Description" {
+/* [  1] */		"Collaborate"
+/* [  2] */		"Collaborate"
+}
+
+'STR#' 32500 "Menu strings" {
+/* [   ] */		"Collaborate"
+/* [   ] */		"Collaborate"
+/* [  1] */			"About"
+/* [  2] */			"Collaborate"
+}
+
+'STR#' 32501 "File type strings" {
+/* [   ] */		"3D Dump"
+}

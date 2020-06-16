@@ -1,0 +1,30 @@
+
+/*------------------ This file was created by GRC compiler -----------------*/
+/*                                                                          */
+/*      Source file: RINT\Collaborate.grc            Code table:  NUL            */
+/*                                                                          */
+/*----- Version 2.0 - Windows ----------------- � 1996-2000 by Graphisoft --*/
+
+
+32000 STRS
+BEGIN
+	24, 0,
+	"Collaborate\0",
+	"Collaborate\0",
+END
+
+32500 STRS
+BEGIN
+	42, 0,
+	"Collaborate\0",
+	"Collaborate\0",
+	"About\0",
+	"Collaborate\0",
+END
+
+32501 STRS
+BEGIN
+	8, 0,
+	"3D Dump\0",
+END
+

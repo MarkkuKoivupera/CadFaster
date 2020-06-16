@@ -1,0 +1,12 @@
+G:\Projects\CadFaster\bin\CF_RevitAddInDLL.dll
+G:\Projects\CadFaster\bin\CF_RevitAddInDLL.pdb
+G:\Projects\CadFaster\CF_RevitAddInDLL\obj\Debug\ResolveAssemblyReference.cache
+G:\Projects\CadFaster\CF_RevitAddInDLL\obj\Debug\ExeWriter.CF_WriterForm.resources
+G:\Projects\CadFaster\CF_RevitAddInDLL\obj\Debug\ExeWriter.Frm_Progress.resources
+G:\Projects\CadFaster\CF_RevitAddInDLL\obj\Debug\ExeWriter.Properties.Resources.resources
+G:\Projects\CadFaster\CF_RevitAddInDLL\obj\Debug\GenerateResource-ResGen.read.1.tlog
+G:\Projects\CadFaster\CF_RevitAddInDLL\obj\Debug\ResGen.read.1.tlog
+G:\Projects\CadFaster\CF_RevitAddInDLL\obj\Debug\GenerateResource-ResGen.write.1.tlog
+G:\Projects\CadFaster\CF_RevitAddInDLL\obj\Debug\ResGen.write.1.tlog
+G:\Projects\CadFaster\CF_RevitAddInDLL\obj\Debug\CF_RevitAddInDLL.dll
+G:\Projects\CadFaster\CF_RevitAddInDLL\obj\Debug\CF_RevitAddInDLL.pdb

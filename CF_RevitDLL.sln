@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CF_RevitDLL", "CF_RevitDLL\CF_RevitDLL.csproj", "{A2F17607-7BD3-463E-B2E2-36FDB4690501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CF_RevitBridge", "CF_RevitBridge\CF_RevitBridge.csproj", "{47EBA78D-49AE-44F1-91F6-2355A5012349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CF_WriterDLL", "CF_WriterDLL\CF_WriterDLL.csproj", "{E6035B5C-09F2-4B1B-836D-8D8093A7A133}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2F17607-7BD3-463E-B2E2-36FDB4690501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F17607-7BD3-463E-B2E2-36FDB4690501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F17607-7BD3-463E-B2E2-36FDB4690501}.Debug|x64.ActiveCfg = Debug|x64
+		{A2F17607-7BD3-463E-B2E2-36FDB4690501}.Debug|x64.Build.0 = Debug|x64
+		{A2F17607-7BD3-463E-B2E2-36FDB4690501}.Debug|x86.ActiveCfg = Debug|x86
+		{A2F17607-7BD3-463E-B2E2-36FDB4690501}.Debug|x86.Build.0 = Debug|x86
+		{A2F17607-7BD3-463E-B2E2-36FDB4690501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F17607-7BD3-463E-B2E2-36FDB4690501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F17607-7BD3-463E-B2E2-36FDB4690501}.Release|x64.ActiveCfg = Release|x64
+		{A2F17607-7BD3-463E-B2E2-36FDB4690501}.Release|x64.Build.0 = Release|x64
+		{A2F17607-7BD3-463E-B2E2-36FDB4690501}.Release|x86.ActiveCfg = Release|x86
+		{A2F17607-7BD3-463E-B2E2-36FDB4690501}.Release|x86.Build.0 = Release|x86
+		{47EBA78D-49AE-44F1-91F6-2355A5012349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47EBA78D-49AE-44F1-91F6-2355A5012349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47EBA78D-49AE-44F1-91F6-2355A5012349}.Debug|x64.ActiveCfg = Debug|x64
+		{47EBA78D-49AE-44F1-91F6-2355A5012349}.Debug|x64.Build.0 = Debug|x64
+		{47EBA78D-49AE-44F1-91F6-2355A5012349}.Debug|x86.ActiveCfg = Debug|x86
+		{47EBA78D-49AE-44F1-91F6-2355A5012349}.Debug|x86.Build.0 = Debug|x86
+		{47EBA78D-49AE-44F1-91F6-2355A5012349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47EBA78D-49AE-44F1-91F6-2355A5012349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47EBA78D-49AE-44F1-91F6-2355A5012349}.Release|x64.ActiveCfg = Release|x64
+		{47EBA78D-49AE-44F1-91F6-2355A5012349}.Release|x64.Build.0 = Release|x64
+		{47EBA78D-49AE-44F1-91F6-2355A5012349}.Release|x86.ActiveCfg = Release|x86
+		{47EBA78D-49AE-44F1-91F6-2355A5012349}.Release|x86.Build.0 = Release|x86
+		{E6035B5C-09F2-4B1B-836D-8D8093A7A133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6035B5C-09F2-4B1B-836D-8D8093A7A133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6035B5C-09F2-4B1B-836D-8D8093A7A133}.Debug|x64.ActiveCfg = Debug|x64
+		{E6035B5C-09F2-4B1B-836D-8D8093A7A133}.Debug|x64.Build.0 = Debug|x64
+		{E6035B5C-09F2-4B1B-836D-8D8093A7A133}.Debug|x86.ActiveCfg = Debug|x86
+		{E6035B5C-09F2-4B1B-836D-8D8093A7A133}.Debug|x86.Build.0 = Debug|x86
+		{E6035B5C-09F2-4B1B-836D-8D8093A7A133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6035B5C-09F2-4B1B-836D-8D8093A7A133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6035B5C-09F2-4B1B-836D-8D8093A7A133}.Release|x64.ActiveCfg = Release|x64
+		{E6035B5C-09F2-4B1B-836D-8D8093A7A133}.Release|x64.Build.0 = Release|x64
+		{E6035B5C-09F2-4B1B-836D-8D8093A7A133}.Release|x86.ActiveCfg = Release|x86
+		{E6035B5C-09F2-4B1B-836D-8D8093A7A133}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+
+/*------------------ This file was created by GRC compiler -----------------*/
+/*                                                                          */
+/*      Source file: c:\Projects\Graphisoft\API Development Kit 14.2550\Examples\CF_ArchiCAD14AddOn\RFIX\CollaborateFix.grc            Code table:  NUL            */
+/*                                                                          */
+/*----- Version 2.0 - Windows ----------------- � 1996-2000 by Graphisoft --*/
+
+
+ #include "CadFasterCollaborateforArchiCad.h"
+32500 MDID
+BEGIN
+	8, 0,
+	0L + CADFASTERCOLLABORATEFORARCHICAD_H,
+	0L + CADFASTERCOLLABORATEFORARCHICAD_H_CadFasterCollaborateforArchiCad
+END
+

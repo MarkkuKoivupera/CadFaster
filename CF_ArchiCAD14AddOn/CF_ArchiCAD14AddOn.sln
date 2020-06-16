@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CF_ArchiCAD14AddOn", "CF_ArchiCAD14AddOn.vcproj", "{36915B41-B8E6-4128-9330-85EEE2672BA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36915B41-B8E6-4128-9330-85EEE2672BA6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{36915B41-B8E6-4128-9330-85EEE2672BA6}.Debug|Win32.Build.0 = Debug|Win32
+		{36915B41-B8E6-4128-9330-85EEE2672BA6}.Release|Win32.ActiveCfg = Release|Win32
+		{36915B41-B8E6-4128-9330-85EEE2672BA6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

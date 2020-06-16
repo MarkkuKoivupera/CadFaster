@@ -1,0 +1,14 @@
+C:\Projects\CadFaster\CF_RevitBridge\bin\x86\Debug\CF_RevitBridge.dll
+C:\Projects\CadFaster\CF_RevitBridge\bin\x86\Debug\CF_RevitBridge.pdb
+C:\Projects\CadFaster\CF_RevitBridge\bin\x86\Debug\RevitAPI.dll
+C:\Projects\CadFaster\CF_RevitBridge\bin\x86\Debug\RevitAPIUI.dll
+C:\Projects\CadFaster\CF_RevitBridge\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\CadFaster\CF_RevitBridge\obj\x86\Debug\CF_RevitBridge.dll
+C:\Projects\CadFaster\CF_RevitBridge\obj\x86\Debug\CF_RevitBridge.pdb
+C:\CadFaster\Revit\CF_RevitBridge.dll
+C:\CadFaster\Revit\CF_RevitBridge.pdb
+G:\CadFaster\Revit\CF_RevitBridge.dll
+G:\CadFaster\Revit\CF_RevitBridge.pdb
+G:\Projects\CadFaster\CF_RevitBridge\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Projects\CadFaster\CF_RevitBridge\obj\x86\Debug\CF_RevitBridge.dll
+G:\Projects\CadFaster\CF_RevitBridge\obj\x86\Debug\CF_RevitBridge.pdb

@@ -1,0 +1,24 @@
+public void SolidWorksMaterialToHsfMaterial(ref double[] material, double[] tempMaterials)
+        {
+
+
+            material[0] = tempMaterials[0] * tempMaterials[3]; // Ambient
+            material[1] = tempMaterials[1] * tempMaterials[3];
+            material[2] = tempMaterials[2] * tempMaterials[3];
+
+            material[3] = tempMaterials[0] * tempMaterials[4]; // Diffuse
+            material[4] = tempMaterials[1] * tempMaterials[4];
+            material[5] = tempMaterials[2] * tempMaterials[4];
+
+            material[6] = tempMaterials[0] * tempMaterials[5]; // Specular
+            material[7] = tempMaterials[1] * tempMaterials[5];
+            material[8] = tempMaterials[2] * tempMaterials[5];
+
+            material[9] = tempMaterials[6];				// Shininess
+            material[10] = 1.0 - tempMaterials[7];				// Transparency
+
+            material[11] = tempMaterials[0] * tempMaterials[8]; // Emission
+            material[12] = tempMaterials[1] * tempMaterials[8];
+            material[13] = tempMaterials[2] * tempMaterials[8];
+            material[14] = 0;
+        }

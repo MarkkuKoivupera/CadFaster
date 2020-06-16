@@ -1,0 +1,18 @@
+SolidProcess fails for Reason:
+Execute/MakeConvertToHSF fails for Reason:
+Autodesk.Revit.Exceptions.ArgumentException: Input type is not a recognized Revit API type
+Parameter name: type
+   at APITypeMap.getNativeType(Type type)
+   at APITypeConverter.ManagedToNative(Type managedObj, ARuntimeClass** nativeObj)
+   at Autodesk.Revit.DB.FilteredElementCollector.OfClass(Type type)
+   at ExeWriter.WriterUtils.MakeConvertToHSF(UIApplication app, UIDocument doc)
+   at ExeWriter.WriterUtils.HandleData(ExternalCommandData commandData, String& message, ElementSet elements)Execute/MakeConvertToHSF fails for Reason:
+Autodesk.Revit.Exceptions.ArgumentException: Input type is not a recognized Revit API type
+Parameter name: type
+   at APITypeMap.getNativeType(Type type)
+   at APITypeConverter.ManagedToNative(Type managedObj, ARuntimeClass** nativeObj)
+   at Autodesk.Revit.DB.FilteredElementCollector.OfClass(Type type)
+   at ExeWriter.WriterUtils.MakeConvertToHSF(UIApplication app, UIDocument doc)
+   at ExeWriter.WriterUtils.HandleData(ExternalCommandData commandData, String& message, ElementSet elements)SendComponentToWriter fails for Reason:
+SendComponentToWriter fails for Reason:
+SendComponentToWriter fails for Reason:

@@ -1,0 +1,20 @@
+/* *****************************************************************************
+// Resource description for the 3D Test Add-On
+// API Development Kit 14; Windows resources
+//
+// Namespaces:		Contact person:
+//		-None-
+//
+// [SG compatible] - Yes
+// ****************************************************************************/
+
+#include <Windows.h>
+
+#if !defined (WINDOWS)
+	#define WINDOWS
+#endif
+
+#include "Collaborate.grc.rc2"
+#include "CollaborateFix.grc.rc2"
+
+1	ICON    LOADONCALL MOVEABLE IMPURE  ACAP.ico

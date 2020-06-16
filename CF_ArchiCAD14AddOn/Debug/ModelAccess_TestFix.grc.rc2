@@ -1,0 +1,43 @@
+
+/*------------------ This file was created by GRC compiler -----------------*/
+/*                                                                          */
+/*      Source file: c:\Projects\Graphisoft\API Development Kit 14.2550\Examples\ModelAccess_Test\RFIX\ModelAccess_TestFix.grc            Code table:  NUL            */
+/*                                                                          */
+/*----- Version 2.0 - Windows ----------------- ï¿½ 1996-2000 by Graphisoft --*/
+
+
+ #include "GSLocalization.h"
+1 VERSIONINFO
+	FILEVERSION		0x1, 0x0, 0, 0
+	PRODUCTVERSION	0xE, 0x0
+	FILEFLAGSMASK	0
+	FILEOS			VOS__WINDOWS32
+	FILETYPE		VFT_APP
+	BEGIN
+		BLOCK	"VarFileInfo"
+		BEGIN
+			VALUE	"Translation", WIN_LANGUAGE_ID, WIN_CHARSET_ID
+		END
+		BLOCK	"StringFileInfo"
+		BEGIN
+			BLOCK	WIN_LANGCHARSET_STR
+			BEGIN
+				VALUE	"CompanyName",		"Your Company"
+				VALUE	"FileDescription",	"Your Add-On"
+				VALUE	"FileVersion",		"1.0" " (14)"
+				VALUE	"InternalName",		INTERNAL_NAME
+				VALUE	"LegalCopyright",	"Copyright  © Your Company 2010"
+				VALUE	"OriginalFilename",	ORIGINAL_NAME
+				VALUE	"ProductName",		"ArchiCAD"
+				VALUE	"ProductVersion",	"14.0"
+			END
+		END
+	END
+ #include "MDIDs_APICD.h"
+32500 MDID
+BEGIN
+	8, 0,
+	0L + MDID_APICD,
+	0L + MDID_APICD_ModelAccessTest
+END
+

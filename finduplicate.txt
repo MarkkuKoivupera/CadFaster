@@ -1,0 +1,36 @@
+public uint findDuplicateVertexIndex( float [] arrayOfCoords, uint count, int index,int startpos)
+    {
+	    
+        int ii = 0;
+	   for (int i=startpos; i<startpos+count; i++) {
+
+           if (arrayOfCoords[startpos + index * 3] == arrayOfCoords[startpos+ii * 3] && arrayOfCoords[startpos + index * 3 + 1] == arrayOfCoords[startpos+ii * 3 + 1] && arrayOfCoords[startpos + index * 3 + 2] == arrayOfCoords[startpos+ii * 3 + 2])
+            {
+                
+                return (uint)(i-(uint)startpos);
+                
+            }
+           ii++;
+	    }
+      
+
+	    return (uint)index;
+    }
+
+//testi 
+
+
+[TestMethod]
+        public void Test_TriangleListTopologyFilter_FindDublicatefilter()
+        {
+            init();
+            float[] verticesWithDuplicates = { 2, 2, 2, 2, 2, 2, 1, 1, 1 };
+            float[] verticesWithoutDuplicates = { 1, 3, 6, 3, 5, 8, 1, 3, 5};
+            uint dubindex=filter.findDuplicateVertexIndex(verticesWithDuplicates, 3, 1, 0);
+            Assert.AreEqual((uint)0, dubindex);
+            dubindex = filter.findDuplicateVertexIndex(verticesWithoutDuplicates, 3, 2, 0);//No dublicates found before index. The index is returned
+            Assert.AreNotEqual((uint)0, dubindex);
+            Assert.AreNotEqual((uint)1, dubindex);
+
+
+        }

@@ -1,0 +1,7 @@
+C:\Projects\CadFaster\CF_RevitDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\CadFaster\bin\Debug\CF_RevitDLL.dll
+C:\Projects\CadFaster\bin\Debug\CF_RevitDLL.pdb
+C:\Projects\CadFaster\CF_RevitDLL\obj\Debug\CF_RevitDLL.dll
+C:\Projects\CadFaster\CF_RevitDLL\obj\Debug\CF_RevitDLL.pdb
+C:\CadFaster\Revit\CF_RevitDLL.dll
+C:\CadFaster\Revit\CF_RevitDLL.pdb

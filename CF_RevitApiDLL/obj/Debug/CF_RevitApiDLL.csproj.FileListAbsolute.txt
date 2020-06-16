@@ -1,0 +1,9 @@
+C:\Projects\CadFaster\CF_RevitApiDLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\CadFaster\CF_RevitApiDLL\obj\Debug\ExeWriter.CF_WriterForm.resources
+C:\Projects\CadFaster\CF_RevitApiDLL\obj\Debug\ExeWriter.Properties.Resources.resources
+C:\Projects\CadFaster\CF_RevitApiDLL\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Projects\CadFaster\CF_RevitApiDLL\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\CadFaster\Revit\CF_RevitApiDLL.dll
+C:\CadFaster\Revit\CF_RevitApiDLL.pdb
+C:\Projects\CadFaster\CF_RevitApiDLL\obj\Debug\CF_RevitApiDLL.dll
+C:\Projects\CadFaster\CF_RevitApiDLL\obj\Debug\CF_RevitApiDLL.pdb
